@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "startedAt": "2026-06-23T21:25:52.117Z",
+    "turnCount": 5,
+    "budgetMs": 1500,
+    "endpointingParamMs": 300,
+    "sttEndpointing": {
+      "mean": 1365.5365160000008,
+      "max": 2601.349317,
+      "min": 695.8168659999992
+    },
+    "llm": {
+      "mean": 210.25344139999962,
+      "max": 297.1544729999996,
+      "min": 172.99969299999793
+    },
+    "ttsTtfb": {
+      "mean": 347.48260559999835,
+      "max": 413.0872399999971,
+      "min": 278.7871269999996
+    },
+    "tts": {
+      "mean": 3365.8374202000005,
+      "max": 4529.106201000002,
+      "min": 2705.849805
+    },
+    "loopTtfb": {
+      "mean": 1923.2725629999986,
+      "max": 3198.1327119999987,
+      "min": 1271.7584659999984
+    },
+    "loop": {
+      "mean": 4941.627377600002,
+      "max": 7332.144111000001,
+      "min": 3698.8211439999986
+    },
+    "turnsTtfbWithinBudget": 3,
+    "turnsLoopWithinBudget": 0,
+    "parallelLoopTtfb": {
+      "mean": 1734.6345140000017,
+      "max": 3151.7264520000026,
+      "min": 1064.3208610000001
+    },
+    "parallelLoop": {
+      "mean": 4257.144734800002,
+      "max": 5920.408391999998,
+      "min": 3288.1588109999993
+    },
+    "parallelTurnsTtfbWithinBudget": 3,
+    "parallelTurnsLoopWithinBudget": 0
+  },
+  "turns": [
+    {
+      "turn": 1,
+      "audioFile": "test-audio-1.wav",
+      "audioDurationMs": 14117.75,
+      "sttTranscript": "Hello there. I've been looking at the product",
+      "sttEndpointingMs": 695.8168659999992,
+      "llmText": "What specifically caught your attention about our product, and what are your goals for implementing it?",
+      "llmChars": 103,
+      "llmTtftMs": 161.09955899999932,
+      "llmMs": 297.1544729999996,
+      "ttsTtfbMs": 278.7871269999996,
+      "ttsMs": 2705.849805,
+      "loopTtfbMs": 1271.7584659999984,
+      "loopMs": 3698.8211439999986,
+      "responseBytes": 33264,
+      "parallelTtfbMs": 1064.3208610000001,
+      "parallelTotalMs": 3288.1588109999993,
+      "parallelSentences": 1
+    },
+    {
+      "turn": 2,
+      "audioFile": "test-audio-2.wav",
+      "audioDurationMs": 14489.25,
+      "sttTranscript": "Well, I think I need something highly reliable",
+      "sttEndpointingMs": 891.4214000000011,
+      "llmText": "Our product is built with redundancy and fail-safes to ensure maximum uptime and reliability.",
+      "llmChars": 93,
+      "llmTtftMs": 132.00858399999925,
+      "llmMs": 172.99969299999793,
+      "ttsTtfbMs": 293.66240299999845,
+      "ttsMs": 3044.2677350000013,
+      "loopTtfbMs": 1358.0834959999975,
+      "loopMs": 4108.688828,
+      "responseBytes": 38016,
+      "parallelTtfbMs": 1171.9355210000012,
+      "parallelTotalMs": 3936.983619000004,
+      "parallelSentences": 1
+    },
+    {
+      "turn": 3,
+      "audioFile": "test-audio-3.wav",
+      "audioDurationMs": 6130.0625,
+      "sttTranscript": "Okay. Well, does it require a lot of maintenance?",
+      "sttEndpointingMs": 1840.9437030000008,
+      "llmText": "Our product is designed to be low-maintenance, with minimal upkeep and routine checks required.",
+      "llmChars": 95,
+      "llmTtftMs": 152.90157300000283,
+      "llmMs": 181.39732100000037,
+      "ttsTtfbMs": 413.0872399999971,
+      "ttsMs": 2800.845088000002,
+      "loopTtfbMs": 2435.4282639999983,
+      "loopMs": 4823.186112000003,
+      "responseBytes": 32544,
+      "parallelTtfbMs": 2153.0580690000024,
+      "parallelTotalMs": 4402.135191000005,
+      "parallelSentences": 1
+    },
+    {
+      "turn": 4,
+      "audioFile": "test-audio-4.wav",
+      "audioDurationMs": 10031,
+      "sttTranscript": "Okay. Well, are there any discounts?",
+      "sttEndpointingMs": 798.151294000003,
+      "llmText": "We do offer customized pricing and discounts for long-term commitments, let me check what options are available for you.",
+      "llmChars": 120,
+      "llmTtftMs": 146.8739310000019,
+      "llmMs": 198.0271270000012,
+      "ttsTtfbMs": 356.781455999997,
+      "ttsMs": 3749.1182719999997,
+      "loopTtfbMs": 1352.9598770000011,
+      "loopMs": 4745.296693000004,
+      "responseBytes": 45648,
+      "parallelTtfbMs": 1132.1316670000015,
+      "parallelTotalMs": 3738.037661000002,
+      "parallelSentences": 1
+    },
+    {
+      "turn": 5,
+      "audioFile": "test-audio-5.wav",
+      "audioDurationMs": 11331.375,
+      "sttTranscript": "Okay. Well, I don't know. I've heard mixed things about these kind of services, so, let me think about it.",
+      "sttEndpointingMs": 2601.349317,
+      "llmText": "I completely understand, our service is a significant investment, but many of our clients have seen significant returns on their time and productivity.",
+      "llmChars": 151,
+      "llmTtftMs": 160.9097780000011,
+      "llmMs": 201.68859299999895,
+      "ttsTtfbMs": 395.0948019999996,
+      "ttsMs": 4529.106201000002,
+      "loopTtfbMs": 3198.1327119999987,
+      "loopMs": 7332.144111000001,
+      "responseBytes": 55728,
+      "parallelTtfbMs": 3151.7264520000026,
+      "parallelTotalMs": 5920.408391999998,
+      "parallelSentences": 2
+    }
+  ]
+}
